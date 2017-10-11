@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/* reponsive nedia*/
 img,
 video,
 audio{
@@ -15,6 +16,7 @@ audio{
   max-width: 100%;
 }
 
+/*adding the font for the page*/
 html {
   font-family: "Times New Roman", Arial, Helvetica, serif;
 }
