@@ -18,10 +18,6 @@ audio{
 
 /*adding the font for the page*/
 html {
+  font-size: 1.125em; /*18/16= 1.125em*/
   font-family: "Times New Roman", Arial, Helvetica, serif;
-}
-
-h2{
-  padding-top: 0.75em;
-  padding-bottom: 0.75em;
 }
