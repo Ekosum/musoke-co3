@@ -44,3 +44,11 @@ html {
   color: green;
   padding-bottom: 11px;
   padding-bottom: 0.6111em; /* 11/18= 0.6111 */
+
+}
+  ol{ list-style-type: decimal;
+}
+
+ul{
+  list-style-type: circle;
+}
