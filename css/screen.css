@@ -18,6 +18,29 @@ audio{
 
 /*adding the font for the page*/
 html {
-  font-size: 1.125em; /*18/16= 1.125em*/
+  font-size: 1.125em; /* 18/18= 1.125em */
+  line-height: 1.2222em; /* 22/18 = 1.2222em */
   font-family: "Times New Roman", Arial, Helvetica, serif;
-}
+  }
+
+  body{
+    padding-top: 44px; /* 22/18 = 1.2222 */
+    padding-left: 22px;
+    padding-right: 22px;
+
+  }
+
+  h1,h2,h3,h4,h5,h6,p, ul, li{
+     padding-bottom: 22px;
+     padding-bottom: 1.2222em; /* 22/18 = 1.2222 */
+  }
+
+  li{
+     padding-bottom: 11px;
+     padding-bottom: 0.6111em; /* 11/18= 0.6111 */
+  }
+
+  ul,ol{
+  color: green;
+  padding-bottom: 11px;
+  padding-bottom: 0.6111em; /* 11/18= 0.6111 */
