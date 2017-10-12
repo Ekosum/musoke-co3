@@ -41,9 +41,10 @@ html {
   }
 
   ul,ol{
-  color: green;
+  color: none;
   padding-bottom: 11px;
   padding-bottom: 0.6111em; /* 11/18= 0.6111 */
+  margin-left: 33px;
 
 }
   ol{ list-style-type: decimal;
