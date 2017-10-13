@@ -16,6 +16,8 @@ audio{
   max-width: 100%;
 }
 
+
+
 /*adding the font for the page*/
 html {
   font-size: 1.125em; /* 18/18= 1.125em */
@@ -46,6 +48,13 @@ html {
   h2,
   h3{
     font-weight: bold;
+    line-height: 44px;/* */
+    padding-bottom: 0;
+    font-size: 26px; /* 42.635/18 =2.369 */
+  }
+
+  h3{
+    font-weight: normal;
   }
 
   li{
