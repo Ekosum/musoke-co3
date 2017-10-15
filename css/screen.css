@@ -16,62 +16,53 @@ audio{
   max-width: 100%;
 }
 
-
-
 /*adding the font for the page*/
-html {
+html{
   font-size: 1.125em; /* 18/18= 1.125em */
   line-height: 1.2222em; /* 22/18 = 1.2222em */
   font-family: "Times New Roman", Arial, Helvetica, serif;
   }
 
-  body{
-    padding-top: 44px; /* 22/18 = 1.2222 */
-    padding-left: 22px;
-    padding-right: 22px;
-
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  li{
-     padding-bottom: 22px;
-     padding-bottom: 1.2222em; /* 22/18 = 1.2222 */
-  }
-
-  h2,
-  h3{
-    font-weight: bold;
-    line-height: 44px;/* */
-    padding-bottom: 0;
-    font-size: 26px; /* 42.635/18 =2.369 */
-  }
-
-  h3{
-    font-weight: normal;
-  }
-
-  li{
-     padding-bottom: 11px;
-     padding-bottom: 0.6111em; /* 11/18= 0.6111 */
-  }
-
-  ul,ol{
-  color: none;
-  padding-bottom: 11px;
-  padding-bottom: 0.6111em; /* 11/18= 0.6111 */
-  margin-left: 33px;
+body{
+   /* 22/18 = 1.2222 */
+  padding-left: 22px;
+  padding-right: 22px;
 
 }
-  ol{ list-style-type: decimal;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+{
+   padding-bottom: 1.2222em; /* 22/18 = 1.2222 */
+}
+
+h2,
+h3{
+  font-weight: bold;
+  line-height: 44px;/* */
+  padding-bottom: 0;
+  font-size: 26px; /* 42.635/18 =2.369 */
+}
+
+h3{
+  font-weight: normal;
+}
+
+ul,ol{
+  color: none;
+  padding-bottom: 0.6111em; /* 11/18= 0.6111 */
+  margin-left: 33px;
 }
 
 ul{
   list-style-type: circle;
+}
+
+ol{
+  list-style-type: decimal;
 }
