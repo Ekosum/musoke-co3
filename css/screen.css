@@ -25,8 +25,8 @@ html{
 
 body{
    /* 22/18 = 1.2222 */
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 1.2222em; /* 22/18 = 1.2222em */
+  padding-right: 1.2222em; /* 22/18 = 1.2222em */
 
 }
 
@@ -38,15 +38,15 @@ h5,
 h6,
 p,
 {
-   padding-bottom: 1.2222em; /* 22/18 = 1.2222 */
+   padding-bottom: 1.2222em; /* 22/18 = 1.2222 em*/
 }
 
 h2,
 h3{
   font-weight: bold;
-  line-height: 44px;/* */
+  line-height: 2.4444em;/* 44/18 =2.4444em*/
   padding-bottom: 0;
-  font-size: 26px; /* 42.635/18 =2.369 */
+  font-size: 1.4444em; /* 26/18 =1.4444em */
 }
 
 h3{
@@ -55,8 +55,8 @@ h3{
 
 ul,ol{
   color: none;
-  padding-bottom: 0.6111em; /* 11/18= 0.6111 */
-  margin-left: 33px;
+  padding-bottom: 0.6111em; /* 11/18= 0.6111em */
+  margin-left: 1.8333em; /* 33/18 = 1.8333em */
 }
 
 ul{
