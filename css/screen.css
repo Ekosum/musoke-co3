@@ -72,3 +72,9 @@ ol{
 
   }
 }
+
+#navigation {
+  position: absolute;
+  left: 0;
+  background-color: green;
+}
