@@ -13,7 +13,7 @@ img,
 video,
 audio{
   display: block;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 /*adding the font for the page*/
@@ -65,4 +65,10 @@ ul{
 
 ol{
   list-style-type: decimal;
+}
+
+@@media screen and (min-width: 375px) {
+  html{
+
+  }
 }
