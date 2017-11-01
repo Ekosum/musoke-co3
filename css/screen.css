@@ -27,7 +27,7 @@ body{
    /* 22/18 = 1.2222 */
   padding-left: 1.2222em; /* 22/18 = 1.2222em */
   padding-right: 1.2222em; /* 22/18 = 1.2222em */
-  padding-top: 3.6667em;/* 44/18 = 1.8em*/
+  padding-top: 3.6667em;/* 66/18 = 1.8em*/
 
 }
 
@@ -48,6 +48,7 @@ h3{
   line-height: 0.6111em; /* 22/18 = 1.2222 em*/
   padding-bottom: 0.6111em; /*11/18 = 0.6111 em */
   font-size: 1.4444em; /* 26/18 =1.4444em */
+
 }
 
 h3{
