@@ -39,7 +39,7 @@ h5,
 h6,
 p,
 {
-   padding-bottom: 1.2222em; /* 22/18 = 1.2222 em*/
+   padding-bottom: 0.6111em; /* 22/18 = 1.2222 em*/
 }
 
 h2,
@@ -81,8 +81,7 @@ ul, li{
 
 #navigation li{
   list-style-type: none;
-  left: 0;
-  background-color: black;
+  background-color: yellow;
   float: left;
   width: 33.333333%
 }
@@ -90,8 +89,8 @@ ul, li{
 #navigation a{
   display: block;
   width: 100;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 0.6111em; /*11/18 = 0.6111em*/
+  padding-bottom: 0.6111em; /*11/18 = 0.6111em*/
 }
 #credit{
   font-size: smaller;
