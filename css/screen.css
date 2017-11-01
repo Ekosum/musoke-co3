@@ -27,6 +27,7 @@ body{
    /* 22/18 = 1.2222 */
   padding-left: 1.2222em; /* 22/18 = 1.2222em */
   padding-right: 1.2222em; /* 22/18 = 1.2222em */
+  padding-top: 1.8333em;/* 33/18 = 1.8em*/
 
 }
 
@@ -66,33 +67,45 @@ ul{
 ol{
   list-style-type: decimal;
 }
-
+ul, li{
+  margin-left: 0;
+}
 #navigation {
-
+  top: 0;
   left: 0;
   background-color: green;
-  list-style-type: none;
   width: 100%;
-  display: block;
-
+  position: absolute;
 
 }
 
 #navigation li{
   list-style-type: none;
-  left 0;
-
+  left: 0;
+  background-color: black;
+  float: left;
+  width: 33.333333%
 }
-#navigation ul li{
-  display: inline-block;
-  width: 20%;
+
+#navigation a{
+  display: block;
+  width: 100;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 #credit{
   font-size: smaller;
 }
 
-@media screen and (min-width: 375px) {
-  html{
+/*@media screen and (min-width: 21.25em) {
+
+  #navigation ul li{
+    display: inline-block;
 
   }
+  #navigation ul{
+    display: flex;
+    justify-content: space-around;
+  }
 }
+*/
