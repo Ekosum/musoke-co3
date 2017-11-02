@@ -28,7 +28,6 @@ body{
   padding-left: 1.2222em; /* 22/18 = 1.2222em */
   padding-right: 1.2222em; /* 22/18 = 1.2222em */
   padding-top: 3.0555em;/* 66/18 = 1.8em*/
-
 }
 
 h1,
@@ -86,7 +85,9 @@ ul, li{
   list-style-type: none;
   background-color: yellow;
   float: left;
-  width: 33.333333%
+  width: 33.333333%;
+  border: 1px dashed pink;
+  box-sizing: border-box;
 }
 
 #navigation a{
@@ -113,15 +114,22 @@ footer li {
   list-style-type: none;
 }
 
-/*@media screen and (min-width: 21.25em) {
-
-  #navigation ul li{
-    display: inline-block;
-
-  }
-  #navigation ul{
-    display: flex;
-    justify-content: space-around;
-  }
+#index {
+  background-color: #00ff00;
 }
+/*the state stlies for the page*/
+/*
+  States of the browser and user access
+  conditions.
+  Hint: these tend to be:
+  1. Driven by media queries
+  2. Influenced by JavaScript
+  3. Organized by Base, Layout, Module, State
 */
+
+@media screen and (min-width: 320px) {
+  body {
+     padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
+     padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
+   }
+ }
