@@ -83,7 +83,8 @@ ul, li{
 
 #navigation li{
   list-style-type: none;
-  background-color: yellow;
+  background-color: #faebd7;
+
   float: left;
   width: 33.333333%;
   border: 1px dashed pink;
@@ -114,9 +115,7 @@ footer li {
   list-style-type: none;
 }
 
-#index {
-  background-color: #00ff00;
-}
+
 /*the state stlies for the page*/
 /*
   States of the browser and user access
