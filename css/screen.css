@@ -135,9 +135,10 @@ footer li {
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 425px) {
   body {
      padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
      padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
+     padding-top: 17.6%; /* 66 / 375 = 17.6%*/
    }
  }
