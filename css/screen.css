@@ -87,7 +87,7 @@ ul, li{
 
   float: left;
   width: 33.333333%;
-  border: 1px dashed pink;
+  border: 1px dashed black;
   box-sizing: border-box;
 }
 
@@ -115,7 +115,16 @@ footer li {
   list-style-type: none;
 }
 
+#resume {
+  background-color: #e6e6fa;
+}
+#home {
+  background-color: #add8e6;
+}
 
+#interests {
+  background-color: #e0ffff;
+}
 /*the state stlies for the page*/
 /*
   States of the browser and user access
