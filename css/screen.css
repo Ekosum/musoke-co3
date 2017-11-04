@@ -109,13 +109,15 @@ footer li {
 }
 #navigation li {
   list-style-type: none;
-  background-color: #faebd7;
+  background-color: #ff4500;
   float: left;
   width: 33.333333%;
   box-sizing: border-box;
+
 }
 
 #navigation a {
+  color: white;
   text-decoration: none;
   display: block;
   width: 100%;
@@ -177,4 +179,3 @@ footer li {
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
 }
-
