@@ -10,6 +10,11 @@ function nextSlide() {
 function previousSlide() {
     goToSlide(currentSlide-1);
 }
+function goToSlide(n) {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (n+slides.length)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
 
 /*adding the play button features */
 var playing = true;
