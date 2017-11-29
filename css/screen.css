@@ -126,7 +126,7 @@ footer li {
   padding-bottom: 0.6111em;
   /* 11 / 18 = 0.6111em*/
   text-align: center;
-  
+
 }
 
 #navigation a:hover {
@@ -179,4 +179,17 @@ footer li {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
+}
+
+  /*
+  essential styles:
+these make the slideshow work
+*/
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
 }
