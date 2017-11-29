@@ -40,3 +40,16 @@ pauseButton.onclick = function() {
     playSlideshow();
   }
 };
+
+/*Adding the listener to the button when clicked by the user*/
+var next = document.getElementById('next');
+var previous = document.getElementById('previous');
+
+next.onclick = function() {
+    pauseSlideshow();
+    nextSlide();
+};
+previous.onclick = function() {
+    pauseSlideshow();
+    previousSlide();
+};
