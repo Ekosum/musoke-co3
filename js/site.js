@@ -2,10 +2,13 @@ var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
 var slideInterval = setInterval(nextSlide,2000);
 
+/* the funtion ti enable the next and previous button to cycle through the slides*/
 function nextSlide() {
-    slides[currentSlide].className = 'slide';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'slide showing';
+    goToSlide(currentSlide+1);
+}
+
+function previousSlide() {
+    goToSlide(currentSlide-1);
 }
 
 /*adding the play button features */
