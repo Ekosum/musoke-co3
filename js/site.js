@@ -53,3 +53,9 @@ previous.onclick = function() {
     pauseSlideshow();
     previousSlide();
 };
+
+/*Setting javaScript to show buttons if javaScript is avaibale*/
+var controls = document.querySelectorAll('.controls');
+for(var i=0; i<controls.length; i++){
+    controls[i].style.display = 'inline-block';
+}
