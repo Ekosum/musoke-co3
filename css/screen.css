@@ -180,6 +180,13 @@ footer li {
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
 }
+#footer {
+  margin-top: 1.125em;
+  padding: 1.125em 5%;
+  /* 18/16=1.125*/
+  color: #fff;
+  background-color: #010101;
+}
 
   /*
   essential styles:
