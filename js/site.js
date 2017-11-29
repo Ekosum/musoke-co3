@@ -7,3 +7,7 @@ function nextSlide() {
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
 }
+
+/*adding the play button features */
+var playing = true;
+var pauseButton = document.getElementById('pause');
