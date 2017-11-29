@@ -24,3 +24,11 @@ function playSlideshow() {
     playing = true;
     slideInterval = setInterval(nextSlide,2000);
 }
+
+pauseButton.onclick = function() {
+    if(playing) {
+    pauseSlideshow();
+  } else {
+    playSlideshow();
+  }
+};
