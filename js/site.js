@@ -2,6 +2,12 @@ var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
 var slideInterval = setInterval(nextSlide,2000);
 
+/*Adding javaScript to loop and make the slides absolute incase the user has
+javaScript on their computer*/
+for(var i=0; i<slides.length; i++) {
+    slides[i].style.position = 'absolute';
+}
+
 /* the funtion ti enable the next and previous button to cycle through the slides*/
 function nextSlide() {
     goToSlide(currentSlide+1);
