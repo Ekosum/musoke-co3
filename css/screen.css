@@ -235,3 +235,8 @@ these make the slideshow work
 .slide:nth-of-type(5) {
     background: purple;
 }
+
+/*now setting a fall back incase the user does not have JavaScript*/
+.controls {
+    display: none;
+}
