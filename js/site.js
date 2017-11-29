@@ -11,3 +11,16 @@ function nextSlide() {
 /*adding the play button features */
 var playing = true;
 var pauseButton = document.getElementById('pause');
+
+/*the play and pause function*/
+function pauseSlideshow() {
+    pauseButton.innerHTML = 'Play';
+    playing = false;
+    clearInterval(slideInterval);
+}
+
+function playSlideshow() {
+    pauseButton.innerHTML = 'Pause';
+    playing = true;
+    slideInterval = setInterval(nextSlide,2000);
+}
