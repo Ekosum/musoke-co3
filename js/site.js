@@ -65,3 +65,10 @@ var controls = document.querySelectorAll('.controls');
 for(var i=0; i<controls.length; i++){
     controls[i].style.display = 'inline-block';
 }
+
+/*The log for my contacts*/
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+    alert ("Hello World!");
+}
