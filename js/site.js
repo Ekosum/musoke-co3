@@ -72,3 +72,17 @@ document.getElementById("myBtn").addEventListener("click", myFunction);
 function myFunction() {
     alert ("Hello World!");
 }
+/*
+<ol id="contact">
+  <li>Email: <a href="mailto:jackjethro3@gmail.com">
+        jackjethro3@gmail.com</a>.</li>
+  <li>Cell: +1 (253) 111-2233</li>
+</ol
+*/
+
+/* creating the click of contacts to appear when clicked by the user who has java available to them*/
+$('#contact').remove();
+$('#personal').one('click', function() {
+    var newline1 = $('<ol id="contact"> <li>Email: <a href="mailto:jackjethro3@gmail.com">jackjethro3@gmail.com </a>.</li> <li>Cell: +1 (253) 111-2233</li> </ol ');
+    $('#personal').append(newline1);
+  });
