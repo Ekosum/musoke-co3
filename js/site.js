@@ -34,7 +34,7 @@ function pauseSlideshow() {
 }
 
 function playSlideshow() {
-    pauseButton.innerHTML = 'Pause';
+    pauseButton.innerHTML = '&#10074;&#10074;';
     playing = true;
     slideInterval = setInterval(nextSlide,2000);
 }
