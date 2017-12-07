@@ -30,4 +30,3 @@
     "tag-name-match": true, // tag names must match, in both name and case
     "tag-self-close": "always" // tags like <meta> must self-close: <meta />
 }
-
