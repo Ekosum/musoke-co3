@@ -284,3 +284,33 @@ these make the slideshow work
   z-index: 10;
   font-size: 0px;
 }
+
+/*adding the divisions  on the page  */
+body {
+    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+  }
+  #mybio {
+    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
+    float: left;
+  }
+  #facts {
+    font-style: normal;
+    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
+    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
+    float: left;
+  }
+  #footer {
+    clear: both;
+  }
+  #slides {
+    clear: both;
+  }
+  .flexbox #mybio,
+  .flexbox #facts {
+    float: none;
+    margin-left: 0;
+  }
+  .flexbox #content {
+    display: flex;
+}
