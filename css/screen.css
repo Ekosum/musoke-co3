@@ -73,6 +73,19 @@ h3 {
   font-weight: normal;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 1.3888888889em;
+  /* 25 / 18 =1.3888888889em */
+  line-height: 0.88em;
+  /* 22 / 25 = 0.88em*/
+  padding-bottom: 0.88em;
+  /* 22 / 25 = 0.88 em */
+  padding-top: 0.44em;
+  /* 11 / 25 = 0.44em*/
+  align-content: center;
+}
+
 ul, ol {
   padding-bottom: 0.6111em;
   /* 11 / 18= 0.6111em */
