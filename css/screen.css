@@ -86,6 +86,11 @@ h4 {
   align-content: center;
 }
 
+aside {
+  padding-top: 1.8333333333em;
+  /* 33 / 18 = 1.8333333333em*/
+}
+
 ul, ol {
   padding-bottom: 0.6111em;
   /* 11 / 18= 0.6111em */
@@ -160,6 +165,10 @@ ul, li {
 
 #interests {
   background-color: #e0ffff;
+}
+
+#intro {
+  text-align: center;
 }
 /*the state stlies for the page*/
 /*
