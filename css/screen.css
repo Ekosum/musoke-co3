@@ -195,10 +195,7 @@ ul, li {
     Primary module: 450px;
     Secondary modul: 200px;
   */
-  body {
-    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-  }
+  
 }
 #footer {
   left: 0;
