@@ -313,12 +313,12 @@ body {
     margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
     float: left;
   }
-  #footer {
+  #footer ,
+  #slides
+  h4{
     clear: both;
   }
-  #slides {
-    clear: both;
-  }
+
   .flexbox #mybio,
   .flexbox #facts {
     float: none;
